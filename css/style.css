@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-  background-color: #f8f8ff;
+  background-color: #3a3b3c;
   font-family: "Montserrat", "Lato", sans-serif;
+  color: white;
 }
 
 .sidenav {
@@ -11,7 +12,7 @@ body {
   z-index: 1;
   top: 20px;
   left: 10px;
-  background: #eee;
+  background: #3a3b3c;
   overflow-x: hidden;
   padding: 8px 0;
 }
@@ -20,7 +21,7 @@ body {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #2196F3;
+  color: white;
   display: block;
 }
 
