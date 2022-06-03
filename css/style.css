@@ -1,45 +1,60 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #3a3b3c;
+  background-color: #da532c;
   font-family: "Montserrat", "Lato", sans-serif;
   color: white;
 }
 
-.sidenav {
-  width: 130px;
+#center_screen {
+  font-size: 40px;
+  height: 75%;
+  width: 100%;
+  display: flex;
   position: fixed;
-  z-index: 1;
-  top: 20px;
-  left: 10px;
-  background: #3a3b3c;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #8c8c8c;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
-  margin-top : 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+li {
+  float: left;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  transition: all .5s ease;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #001F3F;
+  background-color: #fff;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
