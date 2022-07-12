@@ -1,60 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-html {
+:root {
   scroll-behavior: smooth;
+  font-size: 16px;
+  font-family: "Montserrat", "Lato", sans-serif;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  background: #da532c;
+  --bg-secondary: #141418;
+
 }
 
 body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+.navbar{
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+}
+
+/* body {
   background-color: #da532c;
   font-family: "Montserrat", "Lato", sans-serif;
   color: white;
-}
-
-#center_screen {
-  font-size: 40px;
-  height: 75%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
-}
-
-ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-
-  transition: all .5s ease;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  color: #001F3F;
-  background-color: #fff;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
+  line-height: 1.5;
+} */
