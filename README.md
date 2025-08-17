@@ -1,5 +1,1 @@
-### Hi there 👋
-
-Thanks for checking out my profile! My name's Daniel, and I believe in building projects that empower people. I'm passionate about cybernetics; or intelligent systems involving humans, technology, and our environment. 
-
-Currently studying CS @ Stevens Institute of Technology (class of 2025)!
+in the editor. straight up "coding it." and by it, haha, well. let's justr say. hello world
